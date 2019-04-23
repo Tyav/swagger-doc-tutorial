@@ -1,0 +1,33 @@
+{
+  "name": "swagger",
+  "version": "1.0.0",
+  "description": "a simple setup for swagger documentation for express apis",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tyav/swagger-doc-tutorial.git"
+  },
+  "keywords": [
+    "swagger",
+    "express",
+    "apis",
+    "api",
+    "documentation"
+  ],
+  "author": "Moses",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tyav/swagger-doc-tutorial/issues"
+  },
+  "homepage": "https://github.com/Tyav/swagger-doc-tutorial#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.3",
+    "nodemon": "^1.18.11"
+  }
+}
